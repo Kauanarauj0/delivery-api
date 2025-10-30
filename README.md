@@ -12,5 +12,3 @@ Bem-vindo ao projeto **Delivery API**, feito para a aula de Arquitetura de siste
 ## 📚 Funcionalidades
 
 - ✅ CRUD de produtos, clientes, pedidos e restaurantes atraves de uma API rodando localmente pela porta 8080, com requisicoes feitas via POSTMAN
-
-  
