@@ -1,14 +1,49 @@
-# 📦 Delivery API - Spring Boot RESTful Service
+# Delivery Tech API
 
-Bem-vindo ao projeto **Delivery API**, feito para a aula de Arquitetura de sistemas API REST Full com Java Springboot
+Sistema de delivery desenvolvido com Spring Boot e Java 21.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
-· Spring Web
-· Spring Data JPA
-· H2 Database
-· Spring Boot DevTools
+- **Java 21 LTS** (versão mais recente)
+- Spring Boot 3.2.x
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
 
-## 📚 Funcionalidades
 
-- ✅ CRUD de produtos, clientes, pedidos e restaurantes atraves de uma API rodando localmente pela porta 8080, com requisicoes feitas via POSTMAN
+## ⚡ Recursos Modernos Utilizados
+
+- Records (Java 14+)
+- Text Blocks (Java 15+)
+- Pattern Matching (Java 17+)
+- Virtual Threads (Java 21)
+
+
+## 🏃‍♂️ Como executar
+
+1. **Pré-requisitos:** JDK 21 instalado
+2. Clone o repositório
+3. Execute: `./mvnw spring-boot:run`
+4. Acesse: http://localhost:8080/health
+
+
+## 📋 Endpoints
+
+- GET /health - Status da aplicação (inclui versão Java)
+- GET /info - Informações da aplicação
+- GET /h2-console - Console do banco H2
+
+
+## 🔧 Configuração
+
+- Porta: 8080
+- Banco: H2 em memória
+- Profile: development
+
+
+## 👨‍💻 Desenvolvedor
+
+Kauan - Turma de Arquitetura de sistemas API REST Full com Java Springboot 02/2025
+
+Desenvolvido com JDK 21 e Spring Boot 3.2.
